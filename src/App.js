@@ -72,7 +72,7 @@ class App extends Component {
           <Timer Timer={ (this.state)}/>
        </div> */}
 
-       <h1 className="App-header"> Layers vs Order Completion Time </h1>
+       <h1 className="App-header"> Layers vs Order Time </h1>
 
         <div>
           <Counter />
