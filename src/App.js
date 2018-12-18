@@ -72,47 +72,52 @@ class App extends Component {
           <Timer Timer={ (this.state)}/>
        </div> */}
 
-       <h1 className="App-header"> Layers vs Order Time </h1>
+       <h1 className="App-header"> Layers vs Order Completion Time </h1>
 
         <div>
           <Counter />
         </div>
-        <div style={{height: 100}}>
+        <div style={{height: 10}}>
         </div>
-        <br />
-        <form>
+       
+        <form class="button">
+        <h3>Input Values</h3>
           <div>
             <div>
               <Layers label="Layers" name="var1" value={this.state.var1} onChange={this.handleValueChange} />
               <br />
-              <small style={{border:10}}><i>Wearing > 1 Layer</i><code> = 1</code> <i>   Wearing no Layers </i><code> = 0</code> </small>
+              <small style={{border:10}}><i>Wearing > 1 Layer</i><code> = 1</code> <br></br> <i>   Wearing no Layers </i><code> = 0</code> </small>
             </div>
 
             <div>
               <Seconds label="Seconds" name="var2" value={this.state.var2} onChange={this.handleValueChange} />
               <br />
-              <small>Write the time in seconds.</small>
+              <small><i>Write the time in seconds.</i></small>
             </div>
           </div>
           <br />
-            <div>
-              <input style={{ borderWidth: '2.5px' }} type="button" value="Add Values" onClick={this.handleAddVariables} />
+            <div >
+              <input class="minus"  type="button" value="Add Values" onClick={this.handleAddVariables} />
             </div>
         </form>
         <br />
-        <div style={{height: 100}}>
+        <div style={{height: 10}}>
         </div>
-        <h2>Entries</h2>
-        <div>
-          <div  >
+        <div class="button">
+        <h3>Entries</h3>
+        <div class="container">
+          <div class="one">
             <Chart label="Layers" values={this.state.records.var1} />
           </div>
-          <div >
+          <div class="two">
             <Chart label="Seconds" values={this.state.records.var2} />
           </div>
         </div>
+        </div>
         <br />
-        <div id="results">
+        <div style={{height: 10}}>
+        </div>
+        <div class="button" id="results">
           <Correlation var1={this.state.records.var1} var2={this.state.records.var2} />
         </div>
         <div style={{height: 100}}>
@@ -124,3 +129,4 @@ class App extends Component {
 }
 
 export default App;
+
