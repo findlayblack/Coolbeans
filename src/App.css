@@ -15,7 +15,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #D4C3EC;;
 }
 
 .App-link {
@@ -30,3 +30,52 @@
     transform: rotate(360deg);
   }
 }
+.button{
+  background-color: #D4C3EC; 
+  color: black;
+  padding: 15px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  margin: 5px 3px;
+  transition-duration: 0.5s;
+}
+
+.plus{
+  background-color: black; 
+  color: #D4C3EC; 
+  border: 3px solid #D4C3EC;
+  border-radius: 10px
+}
+
+.plus:hover{
+  background-color: #D4C3EC;
+  color: black;
+}
+
+.minus {
+  color: #FF9D88; 
+  background-color: black; 
+  border: 3px solid #FF9D88;
+  border-radius: 10px
+}
+
+.minus:hover {
+  color: black;
+  background-color:  #FF9D88;
+}
+.container {
+  margin:0;
+  ;
+}
+.one {
+  float:left;
+width:50%;
+overflow:visible 
+}
+.two {
+  float:left;
+width:50%;
+overflow:visible;
+}
+
