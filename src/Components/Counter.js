@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../App.css';
+
 //import Timer from './Timer';
 class Counter extends Component {
 
@@ -43,12 +45,14 @@ class Counter extends Component {
     render() {
       const { currentTime, textInput } = this.state;
       return (
-        <div >
+        <div class="button">
+         <h3>Timer</h3>
           <div>Seconds: {currentTime}</div>
-          <button onClick={this.startTimer}>Start timer</button>
-          <div>
+          <button class="minus" onClick={this.startTimer}>Start timer</button>
+          <br></br>
+          <div class="button">
             <input placeholder="Enter # above 0" value={textInput} onChange={this.updateInput} />
-            <button onClick={this.setStartTime}>Set Start time</button>
+            <button class="minus" onClick={this.setStartTime}>Set Start time</button>
           </div>
         </div>
       );
