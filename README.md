@@ -7,20 +7,20 @@ This web application is a tool for coffee shops. It measures the possible correl
 
 ### Functionality 
 
-Seconds timer to time how long it takes the customer from recieving their coffee to leave
+#### Seconds timer to time how long it takes the customer from recieving their coffee to leave
 
   -Start Timer: Starts the seconds timer
   -Set Start time: Resets timer to count up from inputed value.
   
-Input choices:
+#### Input choices:
 
   -Layers: coat=1 no layers=0
   -Seconds: Input seconds determined by timer
- Entries:
+#### Entries:
  
  -Shows values inputed
  
- Correlation:
+#### Correlation:
  
  -Show correlation of the entries
   
