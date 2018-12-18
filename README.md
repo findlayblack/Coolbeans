@@ -1,44 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Coffee Tawk
 
-In the project directory, you can run:
+### Application
 
-### `npm start`
+This web application is a tool for coffee shops. It measures the possible correlation between The layers a customer is wearing and the time that customer spends in the store after recieving their drink. This app is meant for company research and data analysis, but can be used by anyone.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Functionality 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Seconds timer to time how long it takes the customer from recieving their coffee to leave
 
-### `npm test`
+  -Start Timer: Starts the seconds timer
+  -Set Start time: Resets timer to count up from inputed value.
+  
+Input choices:
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+  -Layers: coat=1 no layers=0
+  -Seconds: Input seconds determined by timer
+ Entries:
+ 
+ -Shows values inputed
+ 
+ Correlation:
+ 
+ -Show correlation of the entries
+  
+### Link
+__[Heroku](https://coolcoffeebeans.herokuapp.com/)__
